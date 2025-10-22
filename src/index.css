@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* Устанавливаем границу для меню, как на скрине */
+  /* Устанавливаем границу для меню */
   border-bottom: 3px solid #66bb6a; 
 }
 
@@ -61,7 +61,7 @@ body {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 колонки, как на скрине */
+  grid-template-columns: repeat(4, 1fr); /* 4 колонки */
   gap: 20px;
 }
 
